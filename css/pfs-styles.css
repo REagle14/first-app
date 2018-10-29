@@ -1,6 +1,22 @@
 /* Styles for the Procurement Forecast System */
 
 body {
-    background-image: url('../img/background.jpg');
+    background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 150px;
+}
+
+.pfs-header {
+    background-color: rgba(255, 255, 255, .25);
+    border-top: 5px solid #0071bc;
+    height: 150px;
+}
+
+.pfs-header-container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 80%;
 }
