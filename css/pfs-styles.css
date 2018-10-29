@@ -4,20 +4,35 @@ body {
     background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding-top: 150px;
 }
 
 .pfs-splash-h1 {
     color: #fff;
+    font-size: 4.5rem;
+    font-weight: 100;
+    margin-top: 100px;
+    margin-bottom: 200px;
+    text-shadow: 1px 2px 10px #333;
 }
 .pfs-splash-h3 {
     color: #fff;
+    font-size: 2.5rem;
+    font-weight: 100;
+    margin-bottom: 30px;
+    text-shadow: 1px 3px 6px #333;
 }
 
 .pfs-header {
     background-color: rgba(255, 255, 255, .25);
     border-top: 5px solid #0071bc;
     height: 150px;
+}
+
+.pfs-header-img {
+    display: inline-block;
+    color: #fff;
 }
 
 .pfs-header-container {
@@ -39,6 +54,7 @@ body {
 }
 
 .pfs-footer p {
+    display: inline-block;
     font-size: .75rem;
     padding: 15px;
 }
