@@ -7,6 +7,13 @@ body {
     padding-top: 150px;
 }
 
+.pfs-splash-h1 {
+    color: #fff;
+}
+.pfs-splash-h3 {
+    color: #fff;
+}
+
 .pfs-header {
     background-color: rgba(255, 255, 255, .25);
     border-top: 5px solid #0071bc;
@@ -19,4 +26,49 @@ body {
     padding-right: 15px;
     padding-left: 15px;
     width: 80%;
+}
+
+.pfs-footer {
+    background-color: rgba(255, 255, 255, .70);
+    bottom: 0;
+    color: #333;
+    height: 50px;
+    left: 0;
+    position: fixed;
+    width: 100%;
+}
+
+.pfs-footer p {
+    font-size: .75rem;
+    padding: 15px;
+}
+
+.pfs-btn-primary {
+    background-color: rgba(255, 255, 255, 10);
+    border: 2px solid #fff;
+    color: #333;
+    margin: 15px 0;
+    height: 50px;
+    transition: .25s;
+    width: 200px;
+}
+
+.pfs-btn-primary:hover {
+    background-color: rgba(255, 255, 255, .5);
+    border: 2px solid #fff;
+}
+
+.pfs-btn-secondary {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    height: 50px;
+    margin: 15px 0;
+    transition: .25s;
+    width: 200px;
+}
+
+.pfs-btn-secondary:hover {
+    background-color: rgba(255, 255, 255, .50);
+    color: #333;
 }
