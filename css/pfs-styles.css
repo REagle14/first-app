@@ -68,7 +68,18 @@ body {
 .pfs-footer p {
     display: inline-block;
     font-size: .75rem;
+    margin-left: 165px;
     padding: 15px;
+}
+.pfs-footer-link {
+    font-size: .75rem;
+    text-align: right;
+    margin-top: 15px;
+}
+
+.pfs-footer-link a {
+    color: #333;
+    margin-right: 30px;
 }
 
 .pfs-btn-primary {
